@@ -6,9 +6,9 @@ public class SpawnManagerX : MonoBehaviour
 {
     public GameObject[] ballPrefabs;
 
-    private float spawnLimitXLeft = 0;
-    private float spawnLimitXRight = 7;
-    private float spawnPosZ = 30;
+    private float spawnLimitXLeft = -22.0f;
+    private float spawnLimitXRight = 7.0f;
+    private float spawnPosZ = 30.0f;
 
     private float startDelay = 1.0f;
     private float spawnInterval = 4.0f;
